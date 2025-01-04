@@ -1,2 +1,10 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: grid; /* Enable grid layout */
+    grid-template-rows: repeat(2, 1fr); /* Create two equal rows */
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    width: 200px; /* Total width of the grid */
+    height: 200px; /* Total height of the grid */
+    gap: 0; /* Optional: Add spacing between grid items if needed */
+}
